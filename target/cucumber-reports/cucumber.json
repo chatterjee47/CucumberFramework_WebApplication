@@ -1,0 +1,118 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "To verify Login function",
+        "description": "",
+        "id": "login-function-for-ognomy-application;to-verify-login-function;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 35821657000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "OGNOMY Application is Launch",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.ognomy_Application_is_Launch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1012680301,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on I Acknowledge tab",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_click_on_I_Acknowledge_tab()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 263490300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters valid Email Address \"admin@ognomy.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin@ognomy.com",
+                  "offset": 33
+                }
+              ],
+              "location": "StepDefinition_LoginPageTest.user_enters_valid_Email_Address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 85587300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters valid Password \"@Ognomy123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "@Ognomy123",
+                  "offset": 28
+                }
+              ],
+              "location": "StepDefinition_LoginPageTest.user_enters_valid_Password(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 68565700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User click on Login button",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_click_on_Login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 334090700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User close the Browser",
+            "match": {
+              "location": "StepDefinition_LoginPageTest.user_close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@LoginTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login function for OGNOMY Application",
+    "description": "",
+    "id": "login-function-for-ognomy-application",
+    "keyword": "Feature",
+    "uri": "LoginTest.feature"
+  }
+]

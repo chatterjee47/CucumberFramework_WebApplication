@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="37.586071">
+<testcase classname="Login function for OGNOMY Application" name="To verify Login function" time="37.586071">
+<system-out><![CDATA[When OGNOMY Application is Launch...........................................passed
+And User click on I Acknowledge tab.........................................passed
+Then User enters valid Email Address "admin@ognomy.com".....................passed
+Then User enters valid Password "@Ognomy123"................................passed
+Then User click on Login button.............................................passed
+Then User close the Browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
