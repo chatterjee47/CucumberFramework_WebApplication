@@ -42,13 +42,13 @@ public class StepDefinition_LoginPageTest extends BrowserSetup {
 
 	}
 
-	@When("^User click on I Acknowledge tab$")
+	/*@When("^User click on I Acknowledge tab$")
 	public void user_click_on_I_Acknowledge_tab() throws Throwable {
 		ADP = new AppointmentDetailsPage(driver);
 		ADP.clickOnacknowledgeButton();
 		driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
 
-	}
+	}*/
 
 	@Then("^User enters valid Email Address \"([^\"]*)\"$")
 	public void user_enters_valid_Email_Address(String strEmailAddress) throws Throwable {
