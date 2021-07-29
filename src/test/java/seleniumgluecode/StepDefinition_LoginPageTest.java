@@ -48,7 +48,7 @@ public class StepDefinition_LoginPageTest extends BrowserSetup {
 		ADP.clickOnacknowledgeButton();
 		driver.manage().timeouts().implicitlyWait(8000, TimeUnit.SECONDS);
 
-	}*/
+	}
 
 	@Then("^User enters valid Email Address \"([^\"]*)\"$")
 	public void user_enters_valid_Email_Address(String strEmailAddress) throws Throwable {
@@ -69,7 +69,7 @@ public class StepDefinition_LoginPageTest extends BrowserSetup {
 	public void user_click_on_Login_button() throws Throwable {
 		ADP = new AppointmentDetailsPage(driver);
 		ADP.clickOnLoginButton();
-	}
+	}*/
 
 	@Then("^User close the Browser$")
 	public void user_close_the_Browser() throws Throwable {
